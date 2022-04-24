@@ -1,5 +1,5 @@
 # squi.bid
-Previews of the site below. Actual site will be up soon at http://squi.bid.
+Previews of the site below. Actual site is up https://squi.bid.
 
 <details><summary> Home page </summary>  
 
