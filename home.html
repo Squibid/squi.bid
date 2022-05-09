@@ -7,50 +7,51 @@
 <meta property="og:url" content="http://squi.bid" />
 <meta property="og:image" content="http://squi.bid/profile.jpg" />
 <meta content="#aa3a3a" data-react-helmet="true" name="theme-color" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <body>
-    <title>squi.bid | home</title>
-    <link rel="shortcut icon" type="image/jpg" href="profile.jpg"/>
-    <div id="header">
-        <span style="font-size:50px;cursor:pointer;color:white;padding-left: 10px; padding-top: 80px;" onclick="openNav()">&#9776;</span>
-        <h1 class="h1">Squibid</h1>
-        <h2 class="h2">not a llama, a dev</h2>
-    </div>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <img class="sidenavImage" src="profile.jpg">
-        <div class="sidenavText" style="padding-top: 25px;">
-            <a style="color: white;" href=""><i class="fa-solid fa-house"></i> Home</a>
-            <a href="/projects.html"><i class="fa-solid fa-cube"></i> Projects</a>
-            <a href="/contact.html"><i class="fa-solid fa-envelope-open"></i> Contact</a>
+    <div id="container">
+        <title>squi.bid | home</title>
+        <link rel="shortcut icon" type="image/jpg" href="profile.jpg"/>
+        <div id="header">
+            <span style="font-size:50px;cursor:pointer;color:white;padding-left: 10px; padding-top: 80px;" onclick="openNav()">&#9776;</span>
+            <h1 class="h1">Squibid</h1>
+            <h2 class="h2">not a llama, a dev</h2>
         </div>
-        <footer class="sidenavFooter">
-            <a style="font-size: 15;" href="https://github.com/squibid/squi.bid">Version 1.1.2</a>
-        </footer>
-    </div>
-    <div style="padding-top: 25px;">
-        <p class="p">
-            Hello, my name is Squibid and I'm a developer. Currently I am currently learing Python, 
-            and Shell. I have also been working on some projects on github. 
-        </p>
-        <br>
-        <p class="p">
-            You can find me on: &nbsp;<i class="fa-brands fa-github"></i> <a class="link" href="https://github.com/squibid">github</a> and 
-            <i class="fa-brands fa-discord"></i> <a class="link" href="https://discord.gg/a9evy2WN4">discord</a>
-        </p>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <img class="sidenavImage" src="profile.jpg">
+            <div class="sidenavText" style="padding-top: 25px;">
+                <a style="color: white;" href=""><i class="fa-solid fa-house"></i> Home</a>
+                <a href="/projects.html"><i class="fa-solid fa-cube"></i> Projects</a>
+                <a href="/contact.html"><i class="fa-solid fa-envelope-open"></i> Contact</a>
+            </div>
+            <footer class="sidenavFooter">
+                <a style="font-size: 15;" href="https://github.com/squibid/squi.bid">Version 1.2.0</a>
+            </footer>
+        </div>
+        <div style="padding-top: 25px;">
+            <p class="p">
+                Hello, my name is Squibid and I'm a developer. Currently I am currently learing Python, 
+                and Shell. I have also been working on some projects on github. 
+            </p>
+            <br>
+            <p class="p">
+                You can find me on: &nbsp;<i class="fa-brands fa-github"></i> <a class="link" href="/contact.html">github</a> and 
+                <i class="fa-brands fa-discord"></i> <a class="link" href="/contact.html">discord</a>
+            </p>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
     </div>
     <div class="footer">
         <footer class="footerText" style="padding-top: 10px; text-align: center;">
             ©2022 Squibid | icons from <a class="footerText" style="color: white;" href="https://fontawesome.com/">font awesome</a>
         </footer>
     </div>
-    <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-        }
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
 </body>
 </html>
