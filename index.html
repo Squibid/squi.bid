@@ -1,0 +1,98 @@
+<script src="https://kit.fontawesome.com/4d0f747c23.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Squibid" />
+<meta property="og:description" content="A website about me, Squibid, and my various projects!" />
+<meta property="og:url" content="https://squi.bid" />
+<meta property="og:image" content="https://squi.bid/profile.jpg" />
+<meta content="#aa3a3a" data-react-helmet="true" name="theme-color" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>
+<body>
+    <title>squi.bid</title>
+    <link rel="shortcut icon" type="image/jpg" href="profile.jpg"/>
+    <div id="header">
+        <span class="sidenavbutton" onclick=openNav()>&#9776;</span>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <div class="maintxt">
+            <h1 class="h1">Squibid</h1>
+            <h2 class="h2">not a llama, a developer</h2>
+        </div>
+        <div class="scrollbtn">
+            <a style="color: white;text-decoration: none;" href="#aboutMe">&#129047;</a>
+        </div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href=""><img class="sidenavImage" src="profile.jpg"></a>
+        <div class="sidenavText" style="padding-top: 25px;">
+            <a href="#header"><i class="fa-solid fa-circle-up"></i> Home</a>
+            <a href="#aboutMe"><i class="fa-solid fa-user"></i> About Me</a>
+            <a href="#projects"><i class="fa-solid fa-box"></i> Projects</a>
+            <a href="#contacts"><i class="fa-solid fa-envelope-open"></i> Contact</a>
+        </div>
+        <footer class="sidenavFooter">
+            <a style="font-size: 15;" href="https://github.com/squibid/squi.bid">Version 2.0.0</a>
+        </footer>
+    </div>
+    <div id="aboutMe">
+        <h2 class="h2" style="text-align: left; margin-left: 25%; font-size: 25px; padding-top: 5%;">About Me</h2>
+        <p class="p">
+            Hello, my name is Squibid and I'm a developer. Currently I am learing Python, C,
+            and Shell and have been working on some <a class="link" href=#projects>projects</a>. on github. If you need to contact me just click 
+            <a class="link" href=#contacts>here</a>.
+        </p>
+    </div>
+    <div id="projects">
+        <div style="padding-top: 5%; padding-bottom: 5%;">
+            <img src="IPN.png" class="projectImage">
+            <h2 class="h2" style="text-align: left; margin-left: 25%;">Ip-notifier</h2>
+            <p class="p">
+                Ip-notifier is a script for linux based operating system that sends the current ip to either a server (via sFTP) or to an email (currently a WIP).
+            </p>
+            <p><a class="bigLink" href="https://github.com/squibid/ip-notifier"><i class="fa-brands fa-github"></i> Source Code</a></p>
+        </div>
+        <div style="margin-top: 25px; margin-bottom: 50px;">
+            <img src="RPiA-C.png" class="projectImage">
+            <h2 class="h2" style="text-align: left; margin-left: 25%;">RPiA-C</h2>
+            <p class="p">
+                RPiA-C is a program that works as an alarm clock. Currently it only officially supports linux but might work on windows with some tweaking.
+            </p>
+            <p><a class="bigLink" href="https://github.com/squibid/RPiA-C"><i class="fa-brands fa-github"></i> Source Code</a></p>
+        </div>
+        <div style="margin-top: 25px; padding-bottom: 5%;">
+            <img src="FU.png" class="projectImage">
+            <h2 class="h2" style="text-align: left; margin-left: 25%;">fabric-updater</h2>
+            <p class="p">
+                fabric-updater aka FU is a program that can either update your fabric server, or install a completly new one.
+            </p>
+            <p><a class="bigLink" href="https://github.com/squibid/fabric-updater"><i class="fa-brands fa-github"></i> Source Code</a></p>
+        </div>
+    </div>
+    <div id="contacts">
+        <h2 class="h2" style="text-align: left; margin-left: 25%; font-size: 25px; padding-top: 5%;">@Squibid</h2>
+        <p class="p">
+            <strong>Please refrain from messaging me for help with running my programs.</strong> 
+            If you need any help it would be better to open an issue on github for the relevant software.
+        </p>
+        <br>
+        <p class="bigLink">
+            <i class="fa-brands fa-github"></i> <a class="link" href="https://github.com/squibid">github</a> &nbsp; 
+            <i class="fa-brands fa-discord"></i> <a class="link" href="/discord.html">discord</a> &nbsp;
+            <i class="fa-brands fa-mastodon"></i> <a class="link" href="https://mastodon.social/@Squibid">mastadon</a> &nbsp;
+        </p>
+    </div>
+    <div class="footer">
+        <footer class="footerText" style="padding-top: 10px; text-align: center;">
+            ©2022 Squibid | icons from <a class="footerText" style="color: white;" href="https://fontawesome.com/">font awesome</a>
+        </footer>
+    </div>
+</body>
+</html>
